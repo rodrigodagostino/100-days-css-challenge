@@ -1,0 +1,347 @@
+/**
+ * delete the following line if no text is used
+ * edit the line if you wanna use other fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #fb923c, #db2777);
+	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.square {
+	height: 280px;
+	border: 1px solid #fffbeb;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.square-1 {
+	animation: square-1 3s ease-in-out infinite alternate;
+}
+
+.square-2 {
+	animation: square-2 3s ease-in-out infinite alternate;
+}
+
+.square-3 {
+	animation: square-3 3s ease-in-out infinite alternate;
+}
+
+.square-4 {
+	animation: square-4 3s ease-in-out infinite alternate;
+}
+
+.square-5 {
+	animation: square-5 3s ease-in-out infinite alternate;
+}
+
+.square-6 {
+	animation: square-6 3s ease-in-out infinite alternate;
+}
+
+.square-7 {
+	animation: square-7 3s ease-in-out infinite alternate;
+}
+
+.square-8 {
+	animation: square-8 3s ease-in-out infinite alternate;
+}
+
+.square-9 {
+	animation: square-9 3s ease-in-out infinite alternate;
+}
+
+.square-10 {
+	animation: square-10 3s ease-in-out infinite alternate;
+}
+
+.square-11 {
+	animation: square-11 3s ease-in-out infinite alternate;
+}
+
+.square-12 {
+	animation: square-12 3s ease-in-out infinite alternate;
+}
+
+.square-13 {
+	animation: square-13 3s ease-in-out infinite alternate;
+}
+
+.square-14 {
+	animation: square-14 3s ease-in-out infinite alternate;
+}
+
+.square-15 {
+	animation: square-15 3s ease-in-out infinite alternate;
+}
+
+.square-16 {
+	animation: square-16 3s ease-in-out infinite alternate;
+}
+
+.square-17 {
+	animation: square-17 3s ease-in-out infinite alternate;
+}
+
+.square-18 {
+	animation: square-18 3s ease-in-out infinite alternate;
+}
+
+@keyframes square-1 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(360deg);
+	}
+}
+
+@keyframes square-2 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(350deg);
+	}
+}
+
+@keyframes square-3 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(340deg);
+	}
+}
+
+@keyframes square-4 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(330deg);
+	}
+}
+
+@keyframes square-5 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(320deg);
+	}
+}
+
+@keyframes square-6 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(310deg);
+	}
+}
+
+@keyframes square-7 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(300deg);
+	}
+}
+
+@keyframes square-8 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(290deg);
+	}
+}
+
+@keyframes square-9 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(280deg);
+	}
+}
+
+@keyframes square-10 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(270deg);
+	}
+}
+
+@keyframes square-11 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(260deg);
+	}
+}
+
+@keyframes square-12 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(250deg);
+	}
+}
+
+@keyframes square-13 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(240deg);
+	}
+}
+
+@keyframes square-14 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(230deg);
+	}
+}
+
+@keyframes square-15 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(220deg);
+	}
+}
+
+@keyframes square-16 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(210deg);
+	}
+}
+
+@keyframes square-17 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(200deg);
+	}
+}
+
+@keyframes square-18 {
+	from {
+		width: 280px;
+		border-radius: 0%;
+		transform: translate(-50%, -50%) rotate(0deg);
+	}
+	to {
+		width: 100px;
+		border-radius: 50%;
+		transform: translate(-50%, -50%) rotate(190deg);
+	}
+}

@@ -1,0 +1,178 @@
+/**
+ * delete the following line if no text is used
+ * edit the line if you wanna use other fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #64748b, #334155);
+	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.checkbox {
+	width: 40px;
+	height: 40px;
+	border: 2px solid white;
+	border-radius: 20px;
+	background-color: transparent;
+	appearance: none;
+	margin: 0;
+	vertical-align: top;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08),
+		0 3px 8px 0 rgba(0, 0, 0, 0.2) inset,
+		0 0 0 1px rgba(0, 0, 0, 0.08) inset;
+	transition: background-color 0.32s ease, border-width 0.32s ease,
+		box-shadow 0.32s ease;
+	cursor: pointer;
+	outline: none;
+}
+
+.checkbox:checked {
+	border-width: 14px;
+	background-color: #22d3ee;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.sparks {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+}
+
+.spark {
+	position: absolute;
+	top: 12px;
+	left: 19px;
+	width: 2px;
+	height: 16px;
+	background-color: white;
+	opacity: 1;
+	transition: transform 0s linear, opacity 0s linear;
+}
+
+.checkbox:checked ~ .sparks .spark {
+	transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+	opacity: 0;
+}
+
+.spark-1 {
+	transform: translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-1 {
+	transform: translateY(-300%) scaleY(1);
+}
+
+.spark-2 {
+	transform: rotate(30deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-2 {
+	transform: rotate(30deg) translateY(-300%) scaleY(1);
+}
+
+.spark-3 {
+	transform: rotate(60deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-3 {
+	transform: rotate(60deg) translateY(-300%) scaleY(1);
+}
+
+.spark-4 {
+	transform: rotate(90deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-4 {
+	transform: rotate(90deg) translateY(-300%) scaleY(1);
+}
+
+.spark-5 {
+	transform: rotate(120deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-5 {
+	transform: rotate(120deg) translateY(-300%) scaleY(1);
+}
+
+.spark-6 {
+	transform: rotate(150deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-6 {
+	transform: rotate(150deg) translateY(-300%) scaleY(1);
+}
+
+.spark-7 {
+	transform: rotate(180deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-7 {
+	transform: rotate(180deg) translateY(-300%) scaleY(1);
+}
+
+.spark-8 {
+	transform: rotate(210deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-8 {
+	transform: rotate(210deg) translateY(-300%) scaleY(1);
+}
+
+.spark-9 {
+	transform: rotate(240deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-9 {
+	transform: rotate(240deg) translateY(-300%) scaleY(1);
+}
+
+.spark-10 {
+	transform: rotate(270deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-10 {
+	transform: rotate(270deg) translateY(-300%) scaleY(1);
+}
+
+.spark-11 {
+	transform: rotate(300deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-11 {
+	transform: rotate(300deg) translateY(-300%) scaleY(1);
+}
+
+.spark-12 {
+	transform: rotate(330deg) translateY(-120%) scaleY(0);
+}
+
+.checkbox:checked ~ .sparks .spark-12 {
+	transform: rotate(330deg) translateY(-300%) scaleY(1);
+}
