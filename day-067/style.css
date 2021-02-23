@@ -1,0 +1,220 @@
+/**
+ * delete the following line if no text is used
+ * edit the line if you wanna use other fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #fef3c7, #fde68a);
+	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	perspective: 360px;
+}
+
+.parasol {
+	position: absolute;
+	top: 10%;
+	left: 12%;
+	transform: rotateX(70deg) rotateY(-10deg);
+	transform-style: preserve-3d;
+}
+
+.parasol-top,
+.parasol-top-shadow {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	transform-style: preserve-3d;
+	animation: rotate-parasol-top 4s linear infinite;
+}
+
+@keyframes rotate-parasol-top {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.parasol-top-shadow {
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	animation: rotate-parasol-top-shadow 4s linear infinite;
+}
+
+@keyframes rotate-parasol-top-shadow {
+	from {
+		transform: translateX(100px) translateY(-40px) translateZ(-180px)
+			rotateX(5deg) rotateZ(0deg);
+	}
+	to {
+		transform: translateX(100px) translateY(-40px) translateZ(-180px)
+			rotateX(5deg) rotateZ(360deg);
+	}
+}
+
+.triangle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 100px 24px 0 24px;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	transform-origin: bottom center;
+}
+
+.triangle:nth-child(odd) {
+	border-top-color: crimson;
+}
+
+.triangle:nth-child(even) {
+	border-top-color: white;
+}
+
+.triangle-1 {
+	transform: translateX(-50%) rotateZ(0deg) rotateX(24deg);
+}
+
+.triangle-2 {
+	transform: translateX(-50%) rotateZ(30deg) rotateX(24deg);
+}
+
+.triangle-3 {
+	transform: translateX(-50%) rotateZ(60deg) rotateX(24deg);
+}
+
+.triangle-4 {
+	transform: translateX(-50%) rotateZ(90deg) rotateX(24deg);
+}
+
+.triangle-5 {
+	transform: translateX(-50%) rotateZ(120deg) rotateX(24deg);
+}
+
+.triangle-6 {
+	transform: translateX(-50%) rotateZ(150deg) rotateX(24deg);
+}
+
+.triangle-7 {
+	transform: translateX(-50%) rotateZ(180deg) rotateX(24deg);
+}
+
+.triangle-8 {
+	transform: translateX(-50%) rotateZ(210deg) rotateX(24deg);
+}
+
+.triangle-9 {
+	transform: translateX(-50%) rotateZ(240deg) rotateX(24deg);
+}
+
+.triangle-10 {
+	transform: translateX(-50%) rotateZ(270deg) rotateX(24deg);
+}
+
+.triangle-11 {
+	transform: translateX(-50%) rotateZ(300deg) rotateX(24deg);
+}
+
+.triangle-12 {
+	transform: translateX(-50%) rotateZ(330deg) rotateX(24deg);
+}
+
+.parasol-top-shadow .triangle {
+	border-width: 100px 28px 0 28px;
+	border-top-color: #885030;
+	box-shadow: 0 0 4px 2px #885030;
+}
+
+.parasol-top-shadow .triangle-1 {
+	transform: translateX(-50%) rotateZ(0deg);
+}
+
+.parasol-top-shadow .triangle-2 {
+	transform: translateX(-50%) rotateZ(30deg);
+}
+
+.parasol-top-shadow .triangle-3 {
+	transform: translateX(-50%) rotateZ(60deg);
+}
+
+.parasol-top-shadow .triangle-4 {
+	transform: translateX(-50%) rotateZ(90deg);
+}
+
+.parasol-top-shadow .triangle-5 {
+	transform: translateX(-50%) rotateZ(120deg);
+}
+
+.parasol-top-shadow .triangle-6 {
+	transform: translateX(-50%) rotateZ(150deg);
+}
+
+.parasol-top-shadow .triangle-7 {
+	transform: translateX(-50%) rotateZ(180deg);
+}
+
+.parasol-top-shadow .triangle-8 {
+	transform: translateX(-50%) rotateZ(210deg);
+}
+
+.parasol-top-shadow .triangle-9 {
+	transform: translateX(-50%) rotateZ(240deg);
+}
+
+.parasol-top-shadow .triangle-10 {
+	transform: translateX(-50%) rotateZ(270deg);
+}
+
+.parasol-top-shadow .triangle-11 {
+	transform: translateX(-50%) rotateZ(300deg);
+}
+
+.parasol-top-shadow .triangle-12 {
+	transform: translateX(-50%) rotateZ(330deg);
+}
+
+.parasol-pole,
+.parasol-pole-shadow {
+	position: absolute;
+	width: 6px;
+	height: 120px;
+}
+
+.parasol-pole {
+	top: 50%;
+	left: 50%;
+	margin-top: 10px;
+	background-color: #94a3b8;
+	transform: translateX(-50%) translateZ(-10px) rotateX(-90deg);
+	transform-origin: top center;
+}
+
+.parasol-pole-shadow {
+	background-color: #885030;
+	box-shadow: 0 0 4px 2px #885030;
+	transform: translateX(88px) translateY(-270px) translateZ(-160px)
+		rotateX(60deg) rotateZ(68deg) scaleY(1.6);
+	transform-origin: bottom center;
+}
