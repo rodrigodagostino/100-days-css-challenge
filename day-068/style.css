@@ -12,8 +12,6 @@
 	overflow: hidden;
 	background-image: linear-gradient(to bottom right, #a855f7, #7c3aed);
 	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
-	color: #333;
-	font-family: 'Open Sans', Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
