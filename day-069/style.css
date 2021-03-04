@@ -16,7 +16,7 @@
 	border-radius: 2px;
 	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
-	background: #1E293B;
+	background: #1e293b;
 	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
 	color: #333;
 	font-family: 'Open Sans', Helvetica, sans-serif;
@@ -64,43 +64,42 @@
 	}
 }
 
-.top-eyelid {
+.top-eyelid,
+.bottom-eyelid {
+	width: 260px;
+	height: 100px;
+	border-radius: 100%;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	animation: top-eyelid 6s ease-in-out infinite;
 	z-index: 1;
 }
 
-.top-eyelid path,
-.bottom-eyelid path {
-	fill: #1E293B;
+.top-eyelid {
+	box-shadow: 0 -60px 0 40px #1e293b;
+	animation: top-eyelid 6s ease-in-out infinite;
+}
+
+.bottom-eyelid {
+	box-shadow: 0 60px 0 40px #1e293b;
+	animation: bottom-eyelid 6s ease-in-out infinite;
 }
 
 @keyframes top-eyelid {
 	0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84%, 100% {
-		transform: translate(-50%, -128%);
-	}
-	14%, 30%, 52%, 80% {
 		transform: translate(-50%, -50%);
 	}
-}
-
-.bottom-eyelid {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%) rotate(180deg);
-	animation: bottom-eyelid 6s ease-in-out infinite;
-	z-index: 1;
+	14%, 30%, 52%, 80% {
+		transform: translate(-50%, 32%);
+	}
 }
 
 @keyframes bottom-eyelid {
 	0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84%, 100% {
-		transform: translate(-50%, 28%) rotate(180deg);
+		transform: translate(-50%, -50%);
 	}
 	14%, 30%, 52%, 80% {
-		transform: translate(-50%, -50%) rotate(180deg);
+		transform: translate(-50%, -132%);
 	}
 }
