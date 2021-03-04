@@ -10,7 +10,7 @@
 	"arrowParens": "always",
 	"overrides": [
 		{
-			"files": "*.scss",
+			"files": ["*.scss", "*.css"],
 			"options": {
 				"printWidth": 150,
 				"singleQuote": false
