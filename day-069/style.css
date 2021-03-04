@@ -1,0 +1,106 @@
+/**
+ * delete the following line if no text is used
+ * edit the line if you wanna use other fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background: #1E293B;
+	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	color: #333;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.eye {
+	width: 160px;
+	height: 160px;
+	background-color: #cbd5e1;
+	border-radius: 160px 0;
+	transform: rotate(45deg);
+	overflow: hidden;
+}
+
+.iris {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	width: 40px;
+	height: 40px;
+	background-color: #1e293b;
+	border-radius: 100%;
+	border: 36px solid #f8fafc;
+	animation: eye-movement 6s ease-in-out infinite;
+}
+
+@keyframes eye-movement {
+	0%, 14%, 56% {
+		transform: rotate(-45deg) translate(0%, 0%);
+	}
+	18%, 30% {
+		transform: rotate(-45deg) translate(-25%, 8%);
+	}
+	34%, 52% {
+		transform: rotate(-45deg) translate(25%, 8%);
+	}
+}
+
+.top-eyelid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	animation: top-eyelid 6s ease-in-out infinite;
+	z-index: 1;
+}
+
+.top-eyelid path,
+.bottom-eyelid path {
+	fill: #1E293B;
+}
+
+@keyframes top-eyelid {
+	0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84%, 100% {
+		transform: translate(-50%, -128%);
+	}
+	14%, 30%, 52%, 80% {
+		transform: translate(-50%, -50%);
+	}
+}
+
+.bottom-eyelid {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(180deg);
+	animation: bottom-eyelid 6s ease-in-out infinite;
+	z-index: 1;
+}
+
+@keyframes bottom-eyelid {
+	0%, 10%, 18%, 26%, 34%, 48%, 56%, 76%, 84%, 100% {
+		transform: translate(-50%, 28%) rotate(180deg);
+	}
+	14%, 30%, 52%, 80% {
+		transform: translate(-50%, -50%) rotate(180deg);
+	}
+}
