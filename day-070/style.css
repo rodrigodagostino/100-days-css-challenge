@@ -2,7 +2,7 @@
  * delete the following line if no text is used
  * edit the line if you wanna use other fonts
  */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:500,600);
 
 /* use only the available space inside the 400x400 frame */
 .frame {
@@ -22,7 +22,7 @@
 	/* background-image: linear-gradient(to bottom right, #FB7185, #E11D48); */
 	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
 	color: #333;
-	font-family: "Open Sans", Helvetica, sans-serif;
+	font-family: "Poppins", Helvetica, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -46,14 +46,14 @@
 
 .day-of-the-week {
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 500;
 	color: white;
 	text-transform: uppercase;
 }
 
 .day-of-the-month {
-	font-size: 60px;
-	font-weight: 700;
+	font-size: 68px;
+	font-weight: 600;
 	line-height: 1;
 	color: white;
 }
