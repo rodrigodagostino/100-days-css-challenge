@@ -7,3 +7,4 @@ In this repository are being published my attempts to the [100 Days CSS Challeng
 + [Day Nº067](https://rodrigodagostino.github.io/100-days-css-challenge/day-067)
 + [Day Nº068](https://rodrigodagostino.github.io/100-days-css-challenge/day-068)
 + [Day Nº069](https://rodrigodagostino.github.io/100-days-css-challenge/day-069)
++ [Day Nº070](https://rodrigodagostino.github.io/100-days-css-challenge/day-070)
