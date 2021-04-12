@@ -2,7 +2,6 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": true
 	},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.detectIndentation": true,
 	"editor.fontLigatures": true,
 	"editor.insertSpaces": false,
@@ -13,5 +12,8 @@
 	"eslint.validate": [
 		"javascript"
 	],
-	"eslint.format.enable": true
+	"eslint.format.enable": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint"
+	},
 }
