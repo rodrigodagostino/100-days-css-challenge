@@ -1,0 +1,83 @@
+/**
+ * delete the following line if no text is used
+ * edit the line if you wanna use other fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Poppins:300);
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #334155, #1e293b);
+	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	font-family: "Poppins", Arial, Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.light {
+	position: absolute;
+	top: 28%;
+	left: 50%;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 0 0 12px white;
+	transform: translateX(-50%);
+	opacity: 0;
+}
+
+.light.is-active {
+	opacity: 1;
+}
+
+.keyboard {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(to bottom right, #64748b, #475569);
+	padding: 12px;
+	border-top: 1px solid #e2e8f0;
+}
+
+.letter-keys,
+.number-keys {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.key {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 36px;
+	height: 36px;
+	border-radius: 18px;
+	text-transform: uppercase;
+	font-family: inherit;
+	font-size: 20px;
+	color: white;
+	background-color: transparent;
+	border: none;
+	transition: background-color 0.24s ease;
+	cursor: pointer;
+}
+
+.key:hover {
+	background-color: #94a3b8;
+}
+
+.number-keys {
+	margin-top: 12px;
+}
