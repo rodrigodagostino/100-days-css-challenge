@@ -1,0 +1,62 @@
+/**
+ * delete the following line if no text is used
+ * edit the line if you wanna use other fonts
+ */
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,600);
+
+/* use only the available space inside the 400x400 frame */
+.frame {
+	font-family: "Poppins", Helvetica, sans-serif;
+	font-size: 28px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	background-image: linear-gradient(to bottom right, #fb923c, #db2777);
+	box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.24), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.sentence {
+	display: flex;
+}
+
+.post {
+	font-weight: bold;
+	margin-left: 8px;
+	height: 42px;
+	overflow: hidden;
+}
+
+.slides {
+	animation: slide 8s ease-in-out infinite;
+}
+
+@keyframes slide {
+	0%, 20% {
+		transform: translateY(0);
+	}
+	25%, 45% {
+		transform: translateY(-42px);
+	}
+	50%, 70% {
+		transform: translateY(-84px);
+	}
+	75%, 95% {
+		transform: translateY(-126px);
+	}
+	100% {
+		transform: translateY(-168px);
+	}
+}
