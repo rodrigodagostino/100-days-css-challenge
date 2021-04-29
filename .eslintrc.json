@@ -39,7 +39,10 @@
 		],
 		"comma-spacing": "error",
 		"comma-style": "error",
-		// "computed-property-spacing": [ "error", "always" ],
+		"computed-property-spacing": [
+			"error",
+			"always"
+		],
 		"constructor-super": "error",
 		"dot-notation": [
 			"error",
